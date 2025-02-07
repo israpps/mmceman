@@ -1088,7 +1088,7 @@ static iomanX_iop_device_ops_t mmce_fio_ops =
 
 static iomanX_iop_device_t mmce_dev =
 {
-	"mmce",
+	"mass",
 	(IOP_DT_FS | IOP_DT_FSEXT),
 	1,
 	"Filesystem access mmce",

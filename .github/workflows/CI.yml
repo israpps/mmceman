@@ -31,7 +31,7 @@ jobs:
       with:
         name: mmceman-${{ steps.slug.outputs.sha8 }}
         path: |
-          irx/*.irx
+          mmc*/irx/*.irx
 
     - name: Create release
       if: github.ref == 'refs/heads/main'
@@ -41,4 +41,4 @@ jobs:
         automatic_release_tag: "latest"
         title: "Latest mmceman IRX driver"
         files: |
-          irx/*.irx
+          mmc*/irx/*.irx

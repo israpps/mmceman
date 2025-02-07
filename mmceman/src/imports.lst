@@ -14,7 +14,7 @@ iomanX_IMPORTS_end
 
 intrman_IMPORTS_start
 I_EnableIntr
-I_GetIntrmanInternalData
+DECLARE_IMPORT(3, GetIntrmanInternalData)
 I_CpuSuspendIntr
 I_CpuResumeIntr
 intrman_IMPORTS_end
